@@ -1,0 +1,28 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "membuat bookshelf API dengan NodeJS dan Hapi framework untuk proyek akhir Dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "backend",
+    "dicoding",
+    "proyek",
+    "akhir",
+    "javascript"
+  ],
+  "author": "rahma",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.4",
+    "nanoid": "^3.1.23"
+  }
+}
